@@ -1,0 +1,57 @@
+:root {
+  --bg-color: #4dd8ff;
+  --btn-bg-color: #f0ad4e;
+  --btn-bg-color-hover: #ec971f;
+  --btn-bg-color-hover-light: rgba(255, 255, 255, 0.7);
+}
+
+body {
+  background-color: var(--bg-color);
+}
+
+h1 {
+  padding-top: 250px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.highlight {
+  color: red;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.btn {
+  background-color: var(--btn-bg-color);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+}
+
+.btn:hover {
+  background-color: var(--btn-bg-color-hover-light); 
+}
+
+.btn:active {
+  transform: scale(0.95);
+}
+
+.yes-btn {
+  background-color: green;
+}
+
+.no-btn {
+  background-color: red;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myLove <3</title>
+    <link href="letterStyles.css" rel="stylesheet" type="text/css">
+    <audio autoplay loop>
+      <source src="wave to earth - love.mp3" type="audio/mp3">
+    </audio>
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Dear Ela Sismanyazici.</strong>
+                        <p>
+                            How are you my love? Happy valantine's day. I love you so much. 
+                            I am so lucky to have you in my life, standing by my side thoughout tough times. 
+                            You are probably the best thing that has ever  happened to me. I know it's hard for us 
+                            to date, especially for these few couple of months, with my parents not allowing me to date, but 
+                            I hope we can continue to florish this relationship. I love you from the deepest, deepest, from 
+                            my right ventricle, to my aorta. I love you so much my dear. Seni seviyorum. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
